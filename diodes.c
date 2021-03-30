@@ -42,7 +42,7 @@ int main(void)
 		sleep_mode();
 		switch (current_interrupt)
 		{
-			case _INT0: // light "upper" diode - detecting switch click
+			case _INT0: //light "upper" diode - detecting switch click
 			{
 				if(i < 7) {
 					i++;
